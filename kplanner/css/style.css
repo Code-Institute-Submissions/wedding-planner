@@ -1,10 +1,30 @@
+
 section {
-    width: 100#;
+    width: 100%;
     height: 800px;
+    overflow: hidden;
+}
+
+#heading {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+h1 {
+    font-size: 80px;
 }
 
 body {
-    background-color: #d3f4ff;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    
 }
 
 #menu {
@@ -21,6 +41,17 @@ body {
     color: #801336;
 }
 
+#home-page-pic {
+    height: 100%;
+    width: 100%;
+    background: url("../images/house.jpg") no-repeat center center
+    
+}
+#home-page-pic-out {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 
 
 
