@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap:100,200,300,400,500,600,700| Exo:100,200,300,400,500,600,700');
 
 section {
     width: 100%;
@@ -35,9 +36,12 @@ body {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     list-style-type: none;
     letter-spacing: 4px;
+    position: relative;
+    margin: 0 auto 0;
+    padding-top: 0px;
 }
 #menu li {
     float: right;
@@ -60,12 +64,34 @@ body {
     overflow: hidden;
 }
 
-.small-heading {
+.small-section {
     color: #801336;
     padding: 20px;
     margin: 10px;
     border: none;
-    left: 50%;
+    text-align: center;
+    
+}
+.small-heading {
+    font-family: 'pacifico' cursive;
+    font-size: 28px;
+}
+.bottom-p {
+    color: #801336;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+hr {
+     position: relative; 
+     top: 10px; 
+     border: none; 
+     height: 3px; 
+     background: black; 
+     margin-bottom: 25px;
 }
 
 
