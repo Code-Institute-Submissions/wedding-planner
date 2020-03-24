@@ -95,6 +95,22 @@ hr {
      margin-bottom: 25px;
 }
 
+footer {
+    height: 150px;
+    text-decoration: none;
+}
+.social {
+    text-align: center;
+}
+.social li{
+    display: inline;
+}
+
+.social i {
+    font-size: 30px;
+    margin: 1%;
+    padding: 5%;
+}
 
 input[type=text], select, textarea {
   width: 100%;
