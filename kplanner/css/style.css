@@ -99,17 +99,18 @@ footer {
     height: 150px;
     text-decoration: none;
 }
-.social {
+.social-network {
     text-align: center;
 }
-.social li{
+.social-network li{
     display: inline;
 }
 
-.social i {
+.social-network i {
     font-size: 30px;
     margin: 1%;
     padding: 5%;
+    color: black;
 }
 
 .parag-1 {
@@ -204,8 +205,9 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
-  border-radius: 5px;
+.form {
+  border: 5px;
+  margin: 10px 70px 40px 70px;
   background-color: #f8f8f8;
   padding: 20px;
 }
