@@ -1,35 +1,43 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Kasinchuk Planning
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
-## Gitpod Reminders
+This is a website for wedding planning, it gives basic information on what the company does, which is everything. It is for couples
+who dont have time to search for every apect of thier wedding and worry about missing something, there is s full team to support them.
+This is a simple take and just a taste of what the company does for the dealy beloved.
+All the information is on one page rather than multiple tabs making it easy to navigate for everyone. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features:
 
-`python3 -m http.server`
+Feature 1 (form) - allows the user to submit thier name and email to be contacted by the company.
+Feature 2 (nav-bar) - allows the user to navigate the page quickly and efficiently
+Feature 3 (gallery) - allows the user to view a slide show of pictures
+feature 4 (links) - allowes the user to be directed to social media pages.
 
-A blue button should appear to click: *Expose*,
+Features to implement:
+I would like to add a map
+An online planner, that allows the user to create a plan and send it to the company
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Expose*,
 
-Another blue button should appear to click: *Open Browser*.
+Credits:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Media:
+All images are used from google search the following links are where they are from
+https://www.officialroyalwedding2011.org/reasons-you-should-hire-a-professional-wedding-photographer/
+https://www.matt-fox-photography.com/
+http://www.novaweddingphotography.co.uk/Home
+https://alexmillerweddings.co.uk/
+https://weddingsdegoa.com/4-tips-on-how-to-downsize-your-mood-board-for-wedding-in-goa/
 
-## Updates Since The Instructional Video
+http://www.hanamidream.co.uk/wedding-venue-review-eynsham-hall/
+https://smallbusiness.claremurthy.com/how-to-look-good-headshot/
+https://www.itl.cat/wallview/oxiiTR_professional-business-headshots/
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+https://www.photolakedistrict.co.uk/wedding-photography/
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Acknowledgments:
 
---------
-
-Happy coding!
+I recived some of my inspiration from https://mobirise.com/bootstrap-template/wedding-template/
