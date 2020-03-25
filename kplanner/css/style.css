@@ -71,6 +71,8 @@ body {
     font-size: 20px;
     
 }
+
+
 .small-heading {
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
@@ -108,9 +110,10 @@ footer {
 
 .social-network i {
     font-size: 30px;
-    margin: 1%;
-    padding: 5%;
+    margin: 5px;
+    padding: 4%;
     color: black;
+
 }
 
 .parag-1 {
@@ -121,18 +124,21 @@ border: 3px solid black;
 color: #801336;
 }
 
-
 .parag-2 {
 font-size: 25px;
 font-family: cursive;
 padding: 20px;
 border: 3px solid black;
 color: #801336;
-
 }
 
+.lake-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 
-
+/*the slider code was used from https://www.youtube.com/watch?v=pGHOaY4dhAA8*/
 #slider {
 width: 50%; 
 height: 200px; 
@@ -177,10 +183,21 @@ height: 200px;
         left: -300%;
     }
 }
-
+/* the input code was used from bootstrap*/
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -206,7 +223,7 @@ input[type=submit]:hover {
 }
 
 .form {
-  border: 5px;
+  border: 20px;
   margin: 10px 70px 40px 70px;
   background-color: #f8f8f8;
   padding: 20px;
