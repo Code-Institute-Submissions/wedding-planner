@@ -112,16 +112,82 @@ footer {
     padding: 5%;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+.parag-1 {
+font-size: 25px;
+font-family: cursive;
+padding: 20px;
+border: 3px solid black;
+color: #801336;
 }
+
+
+.parag-2 {
+font-size: 25px;
+font-family: cursive;
+padding: 20px;
+border: 3px solid black;
+color: #801336;
+
+}
+
+
+
+#slider {
+width: 50%; 
+height: 200px; 
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left:0;
+        }
+    25% {
+        left: -100%;
+    }    
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
 
 input[type=submit] {
   background-color: #4CAF50;
@@ -131,6 +197,8 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
+
+
 
 input[type=submit]:hover {
   background-color: #45a049;
